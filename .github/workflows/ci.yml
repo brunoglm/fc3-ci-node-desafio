@@ -28,5 +28,5 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          push: false
-          tags: user/app:latest
+          push: true
+          tags: brunoglm/fc3-ci-node-desafio:latest
